@@ -26,11 +26,11 @@ pip install -r requirements.txt
 The dataset used for this project is the MNIST dataset, which contains 60,000 training images and 10,000 testing images of handwritten digits.
 
 ## Project Structure
-- notebooks/: Jupyter notebooks containing the analysis and model training code.
-- data/: Directory where the dataset is stored.
-- models/: Saved models and training checkpoints.
-- scripts/: Python scripts for data loading, model training, and evaluation.
-- README.md: Project documentation.
+- `notebooks/`: Jupyter notebooks containing the analysis and model training code.
+- `data/`: Directory where the dataset is stored.
+- `models/`: Saved models and training checkpoints.
+- `scripts/`: Python scripts for data loading, model training, and evaluation.
+- `README.md`: Project documentation.
   
 ## Usage
 To train the model and make predictions, follow these steps:
@@ -39,19 +39,17 @@ Data Loading: Load the dataset for training and testing.
 
 ```bash
 python scripts/load_data.py
-Model Training: Train the CNN using the provided notebook.
 ```
-
+Model Training: Train the CNN using the provided notebook.
 ```bash
 jupyter notebook notebooks/train_model.ipynb
-Evaluation: Evaluate the trained model on the test set.
 ```
-
+Evaluation: Evaluate the trained model on the test set.
 ```bash
 python scripts/evaluate_model.py
 ```
 ## Results
-The project achieves high accuracy in classifying handwritten digits. Detailed results and model performance metrics are available in the results/ directory.
+The project achieves high accuracy in classifying handwritten digits. Detailed results and model performance metrics are available in the `results/` directory.
 
 # Contributing
 Contributions are welcome! Please submit a pull request or open an issue to discuss any changes or improvements.
